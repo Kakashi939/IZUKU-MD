@@ -32,7 +32,7 @@ recordingpresence:  process.env.RECORDING === undefined ? false : process.env.RE
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '971' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
-  HANDLERS:  process.env.PREFIX === undefined ? '#' : process.env.PREFIX,
+  HANDLERS:  process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
   disablepm:  process.env.DISABLE_PM === undefined ? false : process.env.DISABLE_PM,
   levelupmessage:  process.env.LEVEL_UP_MESSAGE === undefined ? true : process.env.LEVEL_UP_MESSAGE,
@@ -51,7 +51,7 @@ recordingpresence:  process.env.RECORDING === undefined ? false : process.env.RE
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
   LANG: process.env.THEME|| 'IZUKU',
-  WORKTYPE: process.env.WORKTYPE === undefined ? 'private' : process.env.WORKTYPE
+  WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
 
